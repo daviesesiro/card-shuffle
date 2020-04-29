@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/monster-relodex-v2/static/css/main.516298f4.chunk.css",
-    "main.js": "/monster-relodex-v2/static/js/main.4379ebc9.chunk.js",
-    "main.js.map": "/monster-relodex-v2/static/js/main.4379ebc9.chunk.js.map",
+    "main.css": "/monster-relodex-v2/static/css/main.080dd5d4.chunk.css",
+    "main.js": "/monster-relodex-v2/static/js/main.3b8921bd.chunk.js",
+    "main.js.map": "/monster-relodex-v2/static/js/main.3b8921bd.chunk.js.map",
     "runtime-main.js": "/monster-relodex-v2/static/js/runtime-main.b07535f1.js",
     "runtime-main.js.map": "/monster-relodex-v2/static/js/runtime-main.b07535f1.js.map",
     "static/js/2.2a683841.chunk.js": "/monster-relodex-v2/static/js/2.2a683841.chunk.js",
     "static/js/2.2a683841.chunk.js.map": "/monster-relodex-v2/static/js/2.2a683841.chunk.js.map",
     "index.html": "/monster-relodex-v2/index.html",
-    "precache-manifest.f8aa71ecae5852001428618e3843918a.js": "/monster-relodex-v2/precache-manifest.f8aa71ecae5852001428618e3843918a.js",
+    "precache-manifest.a810d370d4584e170e773d852c48c847.js": "/monster-relodex-v2/precache-manifest.a810d370d4584e170e773d852c48c847.js",
     "service-worker.js": "/monster-relodex-v2/service-worker.js",
-    "static/css/main.516298f4.chunk.css.map": "/monster-relodex-v2/static/css/main.516298f4.chunk.css.map",
+    "static/css/main.080dd5d4.chunk.css.map": "/monster-relodex-v2/static/css/main.080dd5d4.chunk.css.map",
     "static/js/2.2a683841.chunk.js.LICENSE": "/monster-relodex-v2/static/js/2.2a683841.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.b07535f1.js",
     "static/js/2.2a683841.chunk.js",
-    "static/css/main.516298f4.chunk.css",
-    "static/js/main.4379ebc9.chunk.js"
+    "static/css/main.080dd5d4.chunk.css",
+    "static/js/main.3b8921bd.chunk.js"
   ]
 }
