@@ -5,6 +5,11 @@ export const CardContext = createContext();
 
 const reducer = (state, action) => {
   switch (action.type) {
+    case "changeTheme":
+      localStorage.setItem("theme", action.payload);
+      document.querySelector("html").setAttribute("class", action.payload);
+
+      return { ...state, theme: action.payload };
     case "onSearchChange":
     case "tagOnClick":
       return {
@@ -35,7 +40,15 @@ const getInitialState = () => {
 const initialState = getInitialState();
 
 export const CardContextProvider = ({ children }) => {
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = useReducer(
+    reducer,
+    initialState,
+    (initialState) => {
+      const theme = localStorage.getItem("theme") || "magenta";
+      document.querySelector("html").setAttribute("class", theme);
+      return { ...initialState, theme };
+    }
+  );
 
   return (
     <CardContext.Provider value={{ state, dispatch }}>

@@ -1,5 +1,4 @@
-export default ({ ability, name, imgUrl, imgSet, id }) => {
-  console.log(imgSet);
+export default ({ ability, name, imgSet, id }) => {
   return (
     <div className="card">
       <span className="card-ability-tag">{ability.tag}</span>

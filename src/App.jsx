@@ -4,6 +4,7 @@ import { Tag } from "./components/Tag";
 import { abilities } from "./utils/random";
 import { CardContextProvider } from "./context/card-context";
 import { SearchInput } from "./components/SearchInput";
+import { ThemePicker } from "./components/ThemePicker";
 import "./App.css";
 
 const App = () => {
@@ -14,11 +15,9 @@ const App = () => {
         <main>
           <div className="top-tools">
             <SearchInput />
+            <ThemePicker />
             <p className="abilities-head">Abilities</p>
-            <div>
-              <span />
-              <span />
-            </div>
+
             <div className="abilities-body">
               {abilities.map((ability, idx) => (
                 <Tag key={idx} {...ability} />

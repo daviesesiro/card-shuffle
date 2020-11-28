@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-:root {
-  --purple: #ad1457;
-  --purple-light: #da1b6d;
-  --green: #14ad6a;
-  --header-color: white;
-  --header-bg: #ad1457;
-  --header-font-family: "Poppins";
-  --main-bg: #f3f3f3;
-}
+@import "./theme.css";
 
 * {
   margin: 0;
@@ -46,12 +38,12 @@ input[type="search"] {
   padding: 0.5rem;
   outline: none;
   border-radius: 0.3rem;
-  border: 2px solid var(--purple);
+  border: 2px solid var(--primary);
   margin-bottom: 2rem;
 }
 
 .abilities-head {
-  margin-top: 1rem;
+  margin-top: 3rem;
   font-weight: bold;
   font-size: 1.5rem;
 }
@@ -65,7 +57,7 @@ input[type="search"] {
 
 .abilities-body > * {
   color: white;
-  background-color: var(--purple);
+  background-color: var(--primary);
   padding: 0.5rem 0.5rem;
   font-size: 0.9rem;
   border-radius: 10px;
@@ -75,16 +67,17 @@ input[type="search"] {
   margin-bottom: 1rem;
   outline: none;
   border: unset;
+  box-shadow: 0px 4px var(--box-shadow-color);
 }
 
 .abilities-body > *.active {
-  background-color: var(--purple-light);
+  background-color: var(--primary-light);
   transform: translateY(-4px);
-  box-shadow: 0 5px 10px 10px rgb(173, 20, 87, 0.5);
+  box-shadow: 0 5px 10px 10px var(--box-shadow-color);
 }
 
 .abilities-body > *:hover {
-  background-color: var(--purple-light);
+  background-color: var(--primary-light);
 }
 
 .card-list {
@@ -96,14 +89,14 @@ input[type="search"] {
 
 .card {
   display: flex;
-  background-color: white;
+  background-color: var(--card-bg);
   cursor: pointer;
   flex-direction: column;
   border: 3px solid transparent;
   border-radius: 10px;
   width: 70%;
   margin: 0 auto;
-  border: 3px solid var(--purple);
+  border: 3px solid var(--primary);
   padding: 1rem;
   position: relative;
   transition: 0.4s;
@@ -111,7 +104,7 @@ input[type="search"] {
 
 .card:hover {
   animation: shake 1s infinite;
-  box-shadow: 0 5px 10px 10px rgb(173, 20, 87, 0.5);
+  box-shadow: 0 5px 10px 10px var(--box-shadow-color);
 }
 
 .card-ability-tag {
@@ -141,14 +134,14 @@ input[type="search"] {
   width: fit-content;
   display: inline;
   margin-top: -1rem;
-  background-color: var(--purple);
+  background-color: var(--primary);
   padding: 0.4rem;
   border-radius: 10px;
 }
 
 .card-quirk {
   font-weight: bold;
-  color: var(--purple);
+  color: var(--primary);
   font-size: 2rem;
 }
 
@@ -175,7 +168,7 @@ input[type="search"] {
   }
 
   .abilities-body > * {
-    background-color: var(--purple);
+    background-color: var(--primary);
     padding: 0.5rem 0.5rem;
     font-size: 1.3rem;
   }
@@ -247,8 +240,4 @@ input[type="search"] {
   to {
     transform: rotate(360deg);
   }
-}
-
-:root {
-  user-select: none;
 }
