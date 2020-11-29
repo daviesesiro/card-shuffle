@@ -5,6 +5,8 @@ export const CardContext = createContext();
 
 const reducer = (state, action) => {
   switch (action.type) {
+    case "clearQuery":
+      return { ...state, query: "" };
     case "changeTheme":
       localStorage.setItem("theme", action.payload);
       document.querySelector("html").setAttribute("class", action.payload);
