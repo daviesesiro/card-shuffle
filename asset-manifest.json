@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/card-shuffle/static/css/main.f9824ce8.chunk.css",
-    "main.js": "/card-shuffle/static/js/main.54c34e20.chunk.js",
-    "main.js.map": "/card-shuffle/static/js/main.54c34e20.chunk.js.map",
+    "main.css": "/card-shuffle/static/css/main.f0024d7c.chunk.css",
+    "main.js": "/card-shuffle/static/js/main.3a5faa8d.chunk.js",
+    "main.js.map": "/card-shuffle/static/js/main.3a5faa8d.chunk.js.map",
     "runtime-main.js": "/card-shuffle/static/js/runtime-main.b060adab.js",
     "runtime-main.js.map": "/card-shuffle/static/js/runtime-main.b060adab.js.map",
     "static/js/2.89ec22d5.chunk.js": "/card-shuffle/static/js/2.89ec22d5.chunk.js",
     "static/js/2.89ec22d5.chunk.js.map": "/card-shuffle/static/js/2.89ec22d5.chunk.js.map",
     "index.html": "/card-shuffle/index.html",
-    "static/css/main.f9824ce8.chunk.css.map": "/card-shuffle/static/css/main.f9824ce8.chunk.css.map",
-    "static/js/2.89ec22d5.chunk.js.LICENSE.txt": "/card-shuffle/static/js/2.89ec22d5.chunk.js.LICENSE.txt"
+    "static/css/main.f0024d7c.chunk.css.map": "/card-shuffle/static/css/main.f0024d7c.chunk.css.map",
+    "static/js/2.89ec22d5.chunk.js.LICENSE.txt": "/card-shuffle/static/js/2.89ec22d5.chunk.js.LICENSE.txt",
+    "static/media/close.e63718dc.svg": "/card-shuffle/static/media/close.e63718dc.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b060adab.js",
     "static/js/2.89ec22d5.chunk.js",
-    "static/css/main.f9824ce8.chunk.css",
-    "static/js/main.54c34e20.chunk.js"
+    "static/css/main.f0024d7c.chunk.css",
+    "static/js/main.3a5faa8d.chunk.js"
   ]
 }
